@@ -1,3 +1,4 @@
+
 .student{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
@@ -73,4 +74,45 @@
 .counter-button:hover{
   cursor: pointer;
   background-color: aquamarine;
+}
+*/
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1 em;
+}
+h1{
+  margin: 50px;
+}
+
+.color-display{
+  width: 300px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.color-picker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-weight: bolder;
+}
+.color-input{
+  margin-top: 10px;
 }

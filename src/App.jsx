@@ -1,10 +1,9 @@
-import Counter from "./Counter";
-
+import Todo from "./ToDoList.jsx";
 
 function App() {
   return(
     <>
-      <Counter></Counter>
+      <Todo></Todo>
     </>
   );
 }
